@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#snow{
+    animation: snow1 6s infinite linear;
+    opacity: 1;
+}
+#snow .a{
+    animation-delay: -3s;
+}
+@keyframes snow1 {
+    0% {
+        transform: translateY(-100%);
+      }
+      75% {
+        transform: translateY(0%);
+      }
+      100% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+
+}
+#snow1{
+    animation: snow2 8s infinite linear;
+    opacity: 1;
+}
+#snow1 .a{
+    animation-delay: -4s;
+}
+@keyframes snow2 {
+    0%{
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+    50%{
+        transform:translateY(0%);
+        opacity: 1;
+    }
+    100%{
+        transform:translateY(100%);
+        opacity: 0;
+    }
+
+} 
+ #snow2{
+    animation: snow3 10s infinite linear;
+    opacity: 1;
+}
+#snow2 .a{
+    animation-delay: -5s;
+}
+@keyframes snow3 {
+    0%{
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+    50%{
+        transform:translateY(0%);
+        opacity: 1;
+    }
+    100%{
+        transform:translateY(100%);
+        opacity: 0;
+    }
+
+}
+
+#santa{
+    animation: santa 3s infinite ease;
+}
+@keyframes santa {
+    0%{
+        transform:translateY(0%);
+    
+    }
+    50%{
+        transform:translateY(20px);
+       
+    }
+    100%{
+        transform:translateY(0%);
+    }
+
+}
